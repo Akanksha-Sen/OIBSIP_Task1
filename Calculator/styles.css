@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(240, 229, 213);
+}
+
+
+/* Bringing heading to centre */
+.container{
+    text-align: center;
+    margin-top: 23px;
+   
+}
+
+/* Bringing table content to center */
+table{
+    margin: auto;
+}
+
+input{
+    font-size: 34px;
+    border: 2px solid;
+    border-radius: 15px;
+    height: 65px;
+    width: 456px;
+}
+
+/* Styling calculator buttons */
+button{
+    font-size: 40px;
+    background: hsl(62, 100%, 50%);
+    width: 103px;
+    height: 60px;
+    border-radius: 20px;
+    margin: 6px;
+    
+}
+
+
+/* inline block display so that calculator only acquires required space  */
+.calculator{
+    display: inline-block;
+    background-color: #5aa6eb;
+    padding: 23px;
+    border-radius: 53px;
+}
+
+h1{
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace
+}
